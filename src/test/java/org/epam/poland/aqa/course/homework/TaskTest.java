@@ -8,9 +8,8 @@ import static org.epam.poland.aqa.course.homework.Data.AMAZON_LOCATION;
 public class TaskTest {
 
     @Test
-    public void testTask11() {
-        String check = Tasks.Task11();
-        Assert.assertTrue(check.contains(AMAZON_LOCATION));
+    public void TaskTest11() {
+        Assert.assertTrue(Tasks.Task11().contains("99801"));
     }
     @Test
     public void testTask12() {
@@ -18,8 +17,6 @@ public class TaskTest {
     }
 
     @Test
-    public void testTask13() {
-        Assert.assertTrue(Tasks.Task13());
+    public void testTask13() { Assert.assertTrue(Tasks.Task13());
     }
-
 }
